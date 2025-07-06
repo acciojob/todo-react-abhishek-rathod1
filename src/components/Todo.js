@@ -32,14 +32,14 @@ const Todo = () => {
       <div className="todoContainer">
         {todoItems.map((item, idx) => {
           return (
-            <div className="todo-item"
+            <li className="todo-item"
              key={idx}>
               <div><span>{item}</span>{" "}</div>
               <div><button className="delete-btn" onClick={() => handleDelete(idx)}>
                 Delete
               </button></div>
               
-            </div>
+            </li>
           );
         })}
       </div>
