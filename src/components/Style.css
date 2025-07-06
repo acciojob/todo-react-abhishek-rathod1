@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.input-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 50vw;
+  /* height: 100%; */
+}
+
+input{
+  /* font-size: 22px; */
+  padding: 6px;
+  width: 100%;
+}
+
+.add-btn{
+  width: 200px;
+  padding: 6px 22px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.delete-btn{
+  background-color: red;
+  width: 200px;
+  padding: 6px 22px;
+  /* background-color: transparent; */
+  border: 1px solid black;
+}
+
+.todoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  /* border: 1px solid black; */
+  height: 100%;
+  
+}
+
+.todo-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
